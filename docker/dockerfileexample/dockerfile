@@ -1,0 +1,4 @@
+FROM debian:jessie
+# Dockerfile for postgres-iojs
+RUN apt-get update && \
+  apt-get install gcc -y

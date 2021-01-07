@@ -1,0 +1,6 @@
+FROM centos:7    
+RUN mkdir /test1 && echo “Hello” > /test1/file.txt
+
+#sudo docker build . -f dockerfile.testimage 
+
+# ls /var/lib/docker/overlay2/44ec9df71a44cb00ee9f4125209a13717e293cf5be773bf9caa10676dfc06726/diff/
